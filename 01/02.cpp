@@ -14,13 +14,13 @@ int main() {
 
     for (int i = 0; i < SIZE; i++)
     {
-        cout << "adres tablicy int: " << i << " :" << &tabi << endl;
+        cout << "adres tablicy int: " << i << " :" << tabi << endl;
         tabi++;
     }
 
     for (int i = 0; i < SIZE; i++)
     {
-        cout << "adres tablicy int: " << i << " :" << &tabi << endl;
+        cout << "adres tablicy int: " << i << " :" << tabi << endl;
         tabd++;
     }
 
