@@ -29,6 +29,5 @@ int main() {
     }
 
 
-    delete ptr1, ptr2;
     return 0;
 }

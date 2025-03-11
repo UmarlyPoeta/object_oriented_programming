@@ -25,6 +25,5 @@ int main() {
     cout << "roznica wartosci" << *pt2 - *pt3 << endl;
 
     delete[] tab;
-    delete pt1, pt2, pt3;
     return 0;
 }
