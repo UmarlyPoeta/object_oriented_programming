@@ -14,18 +14,16 @@ int main() {
 
     for (int i = 0; i < SIZE; i++)
     {
-        cout << "adres tablicy int: " << i << " :" << tabi << endl;
-        tabi++;
+        cout << "adres tablicy int: " << i << " :" << pt + i << endl;
     }
 
     for (int i = 0; i < SIZE; i++)
     {
-        cout << "adres tablicy int: " << i << " :" << tabi << endl;
-        tabd++;
+        cout << "adres tablicy int: " << i << " :" << pt2 + i << endl;
     }
-
 
     delete[] tabi;
     delete [] tabd;
+
     return 0;
 }
