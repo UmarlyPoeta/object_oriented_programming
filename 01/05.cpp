@@ -15,7 +15,7 @@ int main() {
     cin >> index;
 
     if (index < 0 || index >= 5) {
-        cout << "invalid usage" << endl;
+        cout << "index poza granica" << endl;
     } else {
         ptr2 = &tab[index];
 
