@@ -9,6 +9,7 @@ public:
     void modyfikuj_i_wyswietl(TKlasa& obj);
 };
 
+
 class TKlasa {
 private:
     int wartosc;
